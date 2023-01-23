@@ -8,7 +8,7 @@
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-UltraSonicDistanceSensor distanceSensor(9, 10);  // Initialize sensor that uses digital pins 13 and 12.
+UltraSonicDistanceSensor distanceSensor(9, 10);  // Initialize sensor that uses digital pins 9 and 10.
 
 
 int current_Last_LED=0;
